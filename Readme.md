@@ -29,18 +29,6 @@ This project allows users to ask Physics-related questions and get context-aware
 
 ---
 
-## 📂 Project Structure
-1STRAGPROJECT/
-│
-├── data/ # PDF files
-├── faiss_index/ # Saved FAISS vector database
-├── venv/ # Virtual environment (ignored in Git)
-├── .env # API key file (ignored in Git)
-├── rag.ipynb # Notebook for building RAG system
-├── app.py # Streamlit web application
-├── requirements.txt
-├── .gitignore
-└── README.md
 
 
 ---
