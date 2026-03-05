@@ -5,5 +5,8 @@ sentence-transformers
 faiss-cpu
 pypdf
 python-dotenv
-ipykernel
 streamlit
+
+SpeechRecognition
+pyaudio
+gTTS
