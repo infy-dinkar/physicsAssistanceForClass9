@@ -22,7 +22,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 # -----------------------------
 # Page Title
 # -----------------------------
-st.title("📘 Class 9 Physics Assistant")
+st.title("Class 9 Physics Assistant")
 
 
 # -----------------------------
@@ -119,9 +119,9 @@ def speak_answer(answer):
 # -----------------------------
 # Input Section
 # -----------------------------
-query = st.text_input("✍️ Ask a Physics Question")
+query = st.text_input("Ask a Physics Question")
 
-if st.button("🎤 Ask with Voice"):
+if st.button("Ask with Voice"):
 
     query = voice_input()
     st.write("You asked:", query)
@@ -171,7 +171,7 @@ Answer:
 
 
     # Step 5 → Show Answer
-    st.subheader("📖 Answer")
+    st.subheader("Answer")
     st.write(answer)
 
 
